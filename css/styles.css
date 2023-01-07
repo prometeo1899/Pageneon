@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+body{
+    background-image: url(https://images.alphacoders.com/123/1239284.jpg);
+    background-size: 100%;
+    display:grid;
+    place-items: center;
+    margin: auto;
+    width: 100vw;
+    height:100vh ;
+}
+
+.relative{
+    position: relative;
+    display: flex;
+}
+.box{
+    position:absolute;
+    width: 25vw;
+    height: 66vh;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-left: -40rem;
+    margin-top: -35vh;
+    background-color: rgba(36, 215, 255, 0);
+    box-shadow: 0 0 5px rgb(10, 207, 252) ;
+    box-shadow:  0 0 25px rgb(19, 209, 252) ;
+    box-shadow:  0 0 50px rgb(36, 215, 255) ;
+    overflow: hidden;
+    
+}
+.box::before {
+    content: '';
+    position: absolute;
+    width: 45rem;
+    height: 45rem;
+    background: conic-gradient(transparent,transparent,transparent, rgb(36,215,255)  );
+    animation: rotate 3s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    width: 45rem;
+    height: 45rem;
+    background: conic-gradient(transparent,transparent,transparent, rgb(36,215,255)  );
+    animation: rotate 3s linear infinite;
+    animation-delay:-3seg;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(12deg);}
+    100%{transform: rotate(360deg);}
+}
+.prueba{
+    position: absolute;
+    inset: 0.4rem;
+    border-radius: 1rem;
+    background-color: rgb(23, 72, 163);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 24.1vw; 
+    height: 64.3vh;
+
+}
+form{
+    width: 24vw;
+    height: 64.1vh;
+    inset: 0.6rem;
+    border-radius: 17px;
+    background-color: rgba(0, 0, 0, 0.644);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+
+label{
+
+    height: 64.1vh;
+
+}
+
+label .input{
+    margin-left: rem;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(36,215,255) ;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 0.5rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    gap: 1rem;
+   
+}
+label .input:hover{
+    background-color:  rgba(36, 215, 255, 0.082);
+}
+
+label span{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+   
+
+   
+}
+ h1{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin-left: -8rem;
+}
+.check{
+    margin-top: 1rem;
+    align-self: flex-start;
+    margin-left: 2.3rem;
+}
+
+.btn{
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgb(36,215,255) ;
+    box-shadow: 0 0 5px rgba(10, 208, 252, 0.842) ;
+    box-shadow:  0 0 15px rgba(19, 209, 252, 0.973) ;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border: none;
+    height: 1.8rem;
+    width: 6rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow: 0 0 5px rgba(10, 208, 252, 0.842) ;
+    box-shadow:  0 0 20px rgba(19, 209, 252, 0.973) ;
+}
+span{
+    color: white;
+    margin-bottom: 3rem;
+
+}
+span a {
+    text-decoration: none;
+    color:  rgba(19, 209, 252, 0.685);
+    margin-left: 1rem;
+}
+span a:hover {
+    opacity: 0.70;
+}
