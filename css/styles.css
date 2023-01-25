@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 body{
-    background-image: url(https://images.alphacoders.com/123/1239284.jpg);
-    background-size: 100%;
+    background: url(https://images.alphacoders.com/123/1239284.jpg) center center fixed;
+    background-size: cover;
     display:grid;
     place-items: center;
     margin: auto;
@@ -15,7 +15,7 @@ body{
 }
 .box{
     position:absolute;
-    width: 25vw;
+ width: 23.8rem;
     height: 66vh;
     border-radius: 20px;
     display: grid;
@@ -61,15 +61,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    width: 24.1vw; 
+    width: 22.9rem; 
     height: 64.3vh;
 
 }
 form{
-    width: 24vw;
+    width: 22.8rem;
     height: 64.1vh;
-    inset: 0.6rem;
     border-radius: 17px;
     background-color: rgba(0, 0, 0, 0.644);
     z-index: 1;
@@ -161,4 +159,20 @@ span a {
 }
 span a:hover {
     opacity: 0.70;
+}
+
+@media all and (max-width:1400px){
+    .box{
+        margin-left: -30rem;
+    }
+}
+@media all and (max-width:1000px){
+    .box{
+        margin-left: -10rem;
+    }
+}
+@media all and (max-width:800px){
+    .box{
+        margin-left: -10rem;
+    }
 }
