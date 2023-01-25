@@ -174,5 +174,12 @@ span a:hover {
 @media all and (max-width:800px){
     .box{
         margin-left: -10rem;
+        width: 20.3rem;
     }
+ .prueba{
+    width: 19.5rem;
+ }
+ form{
+    width: 19.5rem;
+ }
 }
