@@ -77,7 +77,7 @@ body{
     align-self: flex-end;
     justify-self:flex-end;
     gap: 3rem;
-    width: 50rem;
+    width: 40rem;
     margin-left: 13rem;
  
 }
@@ -337,11 +337,14 @@ span{
             padding: 0;
             margin-left: 0;
         }
-        .menu a{
+        .nav-menu a{
             margin: 0;
             gap: 0;
             margin-left: 0;
             padding: 0;
+            font-size: 13px;
+            width: 4rem;
+            height: 1rem;
         }
         .nav-menu .imagen{
             display: none;
@@ -352,12 +355,16 @@ span{
         .mascontainer{
             flex-direction: column;
             width: 100vw;
+            gap: 4rem;
         }
         .container2{
             width: 80vw;
+            margin-top: 0;
+            padding: 0;
         }
         .tecnology{
             width: 80vw;
+       
         }
         .images{
             width: 80vw;
