@@ -184,6 +184,7 @@ span{
     margin-top: 1.5rem;
     gap: 10rem;
     margin-right: -100rem;
+   
 }
 
 .container .card{
@@ -344,7 +345,8 @@ span{
             gap: 0;
             margin-left: 0;
             padding: 0;
-            font-size: 18px;
+            font-size: 15px;
+           
             height: 1rem;
             margin-left: 0;
         
@@ -364,6 +366,7 @@ span{
             width: 80vw;
             margin-top: 0;
             padding: 0;
+            height: 35vh;
         }
         .tecnology{
             width: 80vw;
@@ -371,11 +374,13 @@ span{
         }
         .images{
             width: 80vw;
+            height: 36vh;
         }
         .container{
             display: flex;
             justify-content: center;
             flex-direction: column;
+           
         }
         .container .card .face.face1 .content {
             opacity: 1;
